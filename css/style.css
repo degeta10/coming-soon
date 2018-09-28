@@ -4,16 +4,16 @@ body, html {
 }
 
 .bgimg {
-    
-    background-image: url('/images/logo.png');   
-    height: 100%;   
-    background-position: center;   
-    background-size: 350px;
-    background-repeat: no-repeat;    
-    position: relative;   
-    color: black;   
-    font-family: "Courier New", Courier, monospace;    
-    font-size: 25px;    
+
+    background-image: url('/images/logo.png');
+    height: 100%;
+    background-position: center;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    position: relative;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
 }
 
 /* Position text in the top-left corner */
@@ -26,7 +26,7 @@ body, html {
 /* Position text in the bottom-left corner */
 .bottomright {
     position: absolute;
-    bottom: 0;
+    bottom: 0;  
     right: 16px;
 }
 
@@ -38,15 +38,15 @@ body, html {
     bottom:50;
     margin-right:auto;
     margin-left:auto;
-    position: relative;   
-    text-align: center;    
+    position: relative;
+    text-align: center;
     color: white;
-    font-size: 15px; 
+    font-size: 15px;
 }
 
 /* Position text in the middle */
 .middle {
-    font-size: 18px;    
+    font-size: 18px;
     position: absolute;
     top: 50%;
     left: 50%;
