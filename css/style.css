@@ -5,10 +5,10 @@ body, html {
 
 .bgimg {
 
-    background-image: url('/images/logo.png');
+    background-image: url('/images/brainwired-jpg.jpg');
     height: 100%;
     background-position: center;
-    background-size: 25%;
+    /* background-size: 25%; */
     background-repeat: no-repeat;
     position: relative;
     color: black;
