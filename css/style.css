@@ -1,55 +1,50 @@
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body, html {
-    height: 100%
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: black;
 }
 
 .bgimg {
-
-    background-image: url('/images/brainwired-jpg.jpg');
+    background-image: url('/images/nimkraft-png.png');
     height: 100%;
+    width: 100%;
     background-position: center;
-    /* background-size: 25%; */
-    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
     position: relative;
-    color: black;
     font-family: "Courier New", Courier, monospace;
     font-size: 25px;
+    background-repeat: no-repeat;
 }
 
-/* Position text in the top-left corner */
 .topleft {
     position: absolute;
     top: 0;
     left: 16px;
 }
 
-/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
 .bottomright {
     position: absolute;
-    bottom: 0;  
+    bottom: 0;
     right: 16px;
 }
 
-.bottom {
-
-    width:500px;
-    height:20px;
-    background:#000;
-    bottom:50;
-    margin-right:auto;
-    margin-left:auto;
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-
-/* Position text in the middle */
 .middle {
-    font-size: 18px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(100%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
 }
